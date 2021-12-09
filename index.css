@@ -1,0 +1,14 @@
+.closethis {
+  background-color: #f7b32b;
+  padding: 2%;
+  border: 1px solid black;
+  border-radius: .4rem;
+  transition: 400ms;
+  margin: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.closethis:hover {
+  transform: scale(1.1);
+}
