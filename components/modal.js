@@ -62,13 +62,11 @@ function createModal({ modalName = "d-modal", openBtnName = "Open", closeBtnClas
     }
 
     _showModal(event = null) {
-      this._modalVisible = true;
       this._modal.style.display = 'block';
       openCallback(event.target);
     }
 
     _hideModal(event = null) {
-      this._modalVisible = false;
       this._modal.style.display = 'none';
       closeCallback(event.target);
     }
