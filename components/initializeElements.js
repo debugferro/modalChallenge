@@ -17,8 +17,8 @@ function secondCloseCallback(element) {
 }
 
 function initializeElements() {
-    createModal({modalName: "f-modal", openBtnName: "OI", closeBtnClass: "closethis", closeCallback: firstCloseCallback});
-    createModal({modalName: "s-modal", openBtnName: "OI", closeBtnClass: "closethis", closeCallback: secondCloseCallback});
+    createModal({modalName: "f-modal", openBtnName: "Open first", closeBtnClass: "closethis", closeCallback: firstCloseCallback});
+    createModal({modalName: "s-modal", openBtnName: "Open second", closeBtnClass: "closethis", closeCallback: secondCloseCallback});
 }
 
 export default initializeElements;
